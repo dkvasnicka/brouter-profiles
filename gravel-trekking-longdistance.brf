@@ -36,7 +36,7 @@ assign   allow_default_barrier_restriction  false # If true, default access for 
 assign totalMass                    = 91     # %totalMass% | Mass (in kg) of the bike + biker, for travel time computation | number
 assign maxSpeed                     = 50     # %maxSpeed% | Absolute maximum speed (in km/h), for travel time computation | number
 assign S_C_x                        = 0.225  # %S_C_x% | Drag coefficient times the reference area (in m^2), for travel time computation | number
-assign C_r                          = 0.0075   # %C_r% | Rolling resistance coefficient (dimensionless), for travel time computation | number
+assign C_r                          = 0.015   # %C_r% | Rolling resistance coefficient (dimensionless), for travel time computation | number - Gravelking SS+ 40mm x 2
 assign bikerPower                   = 170    # %bikerPower% | Average power (in W) provided by the biker, for travel time computation | number
 
 # Turn instructions settings
